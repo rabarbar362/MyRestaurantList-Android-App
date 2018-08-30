@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/enter_restaurant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:labelFor="@+id/restaurant_name_form"
+        android:text="@string/form_enter_restaurant_name" />
+
+    <EditText
+        android:id="@+id/restaurant_name_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_restaurant_name"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType=
+            "textCapSentences|textAutoCorrect" />
+
+    <TextView
+        android:id="@+id/how_good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:text="@string/form_choose_satisfacion" />
+
+    <RadioGroup
+        android:id="@+id/how_good_radio_group"
+        android:layout_width="206dp"
+        android:layout_height="142dp"
+        android:layout_below="@+id/how_good"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/radioButtonVeryGood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/very_good" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ok" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dont_want_to_go_there_anymore" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/commentary_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="262dp"
+        android:labelFor="@+id/commentary_text_form"
+        android:text="@string/commentary_form" />
+
+    <EditText
+        android:id="@+id/commentary_text_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/commentary_form"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType=
+            "textCapSentences|textAutoCorrect|textMultiLine"
+        android:lines="3"/>
+
+    <Button
+        android:id="@+id/button_go_to_choose_location"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/commentary_text_form"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_go" />
+
+
+</RelativeLayout>

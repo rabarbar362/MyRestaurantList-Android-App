@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Restaurant List</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Map</string>
+    <string name="title_add">Add</string>
+
+    <string name="form_enter_restaurant_name">Enter restaurant name:</string>
+    <string name="form_choose_satisfacion">How good was the restaurant?</string>
+    <string name="very_good">Very good!</string>
+    <string name="ok">OK, but could be better</string>
+    <string name="dont_want_to_go_there_anymore">I don\'t want to go there anymore</string>
+    <string name="commentary_form">Short commentary:</string>
+    <string name="button_go">Go to the next step</string>
+    <string name="add_restaurant_button">Add restaurant</string>
+
+    <string name="how_good_list_item">How good is the restaurant: </string>
+    <string name="commentary_list_item">Commentary: </string>
+</resources>
