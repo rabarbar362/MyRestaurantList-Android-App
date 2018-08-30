@@ -29,3 +29,4 @@ Click on a marker to see the name and commentary.
 ![Map view](https://github.com/rabarbar362/MyRestaurantList-Android-App/blob/master/Screenshots/all_restaurants_map.png)
 
 
+You can download the .apk file from here: https://github.com/rabarbar362/MyRestaurantList-Android-App/blob/master/App/app/build/outputs/apk/debug/app-debug.apk
